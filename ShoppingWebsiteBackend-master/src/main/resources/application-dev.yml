@@ -1,0 +1,15 @@
+spring:
+  application:
+   name: This is Employee Management App
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://ausdwgafpdb01.aus.amer.dell.com:1433;databaseName=shoppingdb
+    username: GAFPDITDBUser
+    password: G123456$	
+#Hibernate properties
+  jpa:
+   properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+   hibernate:
+        ddl-auto: update

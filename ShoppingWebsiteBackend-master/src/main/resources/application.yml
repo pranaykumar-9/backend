@@ -1,0 +1,12 @@
+#serverconfig
+server:
+  port : 9091
+#log config 
+logging:
+  level:
+    org:
+      springframework: INFO
+#profileconfig
+spring:
+  profiles:
+    active: dev
